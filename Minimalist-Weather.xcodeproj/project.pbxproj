@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9596FCDAF1746C0696B9C979 /* Pods_Minimalist_Weather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6637411C8AC9BE6726278591 /* Pods_Minimalist_Weather.framework */; };
+		B3D03CC71D0349EF0009066B /* Forcast.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D03CC61D0349EF0009066B /* Forcast.swift */; };
+		B3D03CC91D0352410009066B /* ForcastCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D03CC81D0352410009066B /* ForcastCell.swift */; };
 		B3EAA4B71CFFA14500B06008 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EAA4B61CFFA14400B06008 /* AppDelegate.swift */; };
 		B3EAA4B91CFFA14500B06008 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EAA4B81CFFA14500B06008 /* ViewController.swift */; };
 		B3EAA4BC1CFFA14500B06008 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3EAA4BA1CFFA14500B06008 /* Main.storyboard */; };
 		B3EAA4BE1CFFA14500B06008 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3EAA4BD1CFFA14500B06008 /* Assets.xcassets */; };
 		B3EAA4C11CFFA14500B06008 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3EAA4BF1CFFA14500B06008 /* LaunchScreen.storyboard */; };
+		B3EAA4CA1CFFA1EF00B06008 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EAA4C91CFFA1EF00B06008 /* Weather.swift */; };
+		B3EAA4CF1CFFA29B00B06008 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EAA4CE1CFFA29B00B06008 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6637411C8AC9BE6726278591 /* Pods_Minimalist_Weather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Minimalist_Weather.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		731130D73B421853029F5038 /* Pods-Minimalist-Weather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Minimalist-Weather.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Minimalist-Weather/Pods-Minimalist-Weather.debug.xcconfig"; sourceTree = "<group>"; };
+		B3D03CC61D0349EF0009066B /* Forcast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Forcast.swift; sourceTree = "<group>"; };
+		B3D03CC81D0352410009066B /* ForcastCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForcastCell.swift; sourceTree = "<group>"; };
 		B3EAA4B31CFFA14400B06008 /* Minimalist-Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Minimalist-Weather.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3EAA4B61CFFA14400B06008 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3EAA4B81CFFA14500B06008 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +31,9 @@
 		B3EAA4BD1CFFA14500B06008 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3EAA4C01CFFA14500B06008 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3EAA4C21CFFA14500B06008 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3EAA4C91CFFA1EF00B06008 /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		B3EAA4CE1CFFA29B00B06008 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C290B74F3A3377B45FD8299E /* Pods-Minimalist-Weather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Minimalist-Weather.release.xcconfig"; path = "Pods/Target Support Files/Pods-Minimalist-Weather/Pods-Minimalist-Weather.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9596FCDAF1746C0696B9C979 /* Pods_Minimalist_Weather.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5BAEF01B3E6920F47C11824C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				731130D73B421853029F5038 /* Pods-Minimalist-Weather.debug.xcconfig */,
+				C290B74F3A3377B45FD8299E /* Pods-Minimalist-Weather.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AE136CCD9E3664AEEC9A2018 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6637411C8AC9BE6726278591 /* Pods_Minimalist_Weather.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3D03CCA1D0352460009066B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B3D03CC81D0352410009066B /* ForcastCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		B3EAA4AA1CFFA14400B06008 = {
 			isa = PBXGroup;
 			children = (
 				B3EAA4B51CFFA14400B06008 /* Minimalist-Weather */,
 				B3EAA4B41CFFA14400B06008 /* Products */,
+				5BAEF01B3E6920F47C11824C /* Pods */,
+				AE136CCD9E3664AEEC9A2018 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +94,9 @@
 		B3EAA4B51CFFA14400B06008 /* Minimalist-Weather */ = {
 			isa = PBXGroup;
 			children = (
+				B3D03CCA1D0352460009066B /* View */,
+				B3EAA4CB1CFFA27400B06008 /* Resources */,
+				B3EAA4C81CFFA1E200B06008 /* Model */,
 				B3EAA4B61CFFA14400B06008 /* AppDelegate.swift */,
 				B3EAA4B81CFFA14500B06008 /* ViewController.swift */,
 				B3EAA4BA1CFFA14500B06008 /* Main.storyboard */,
@@ -64,6 +107,23 @@
 			path = "Minimalist-Weather";
 			sourceTree = "<group>";
 		};
+		B3EAA4C81CFFA1E200B06008 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B3EAA4C91CFFA1EF00B06008 /* Weather.swift */,
+				B3D03CC61D0349EF0009066B /* Forcast.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B3EAA4CB1CFFA27400B06008 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B3EAA4CE1CFFA29B00B06008 /* Constants.swift */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +131,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B3EAA4C51CFFA14500B06008 /* Build configuration list for PBXNativeTarget "Minimalist-Weather" */;
 			buildPhases = (
+				FC86E3C3AB0B1591BB16C181 /* 📦 Check Pods Manifest.lock */,
 				B3EAA4AF1CFFA14400B06008 /* Sources */,
 				B3EAA4B01CFFA14400B06008 /* Frameworks */,
 				B3EAA4B11CFFA14400B06008 /* Resources */,
+				EE043D5E146DFC2E1FD89ED4 /* 📦 Embed Pods Frameworks */,
+				014BDF5F30C7C7ECEE30B8A7 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +194,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		014BDF5F30C7C7ECEE30B8A7 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Minimalist-Weather/Pods-Minimalist-Weather-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE043D5E146DFC2E1FD89ED4 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Minimalist-Weather/Pods-Minimalist-Weather-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC86E3C3AB0B1591BB16C181 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B3EAA4AF1CFFA14400B06008 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3D03CC91D0352410009066B /* ForcastCell.swift in Sources */,
+				B3D03CC71D0349EF0009066B /* Forcast.swift in Sources */,
 				B3EAA4B91CFFA14500B06008 /* ViewController.swift in Sources */,
+				B3EAA4CA1CFFA1EF00B06008 /* Weather.swift in Sources */,
 				B3EAA4B71CFFA14500B06008 /* AppDelegate.swift in Sources */,
+				B3EAA4CF1CFFA29B00B06008 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +365,7 @@
 		};
 		B3EAA4C61CFFA14500B06008 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 731130D73B421853029F5038 /* Pods-Minimalist-Weather.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Minimalist-Weather/Info.plist";
@@ -261,6 +377,7 @@
 		};
 		B3EAA4C71CFFA14500B06008 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C290B74F3A3377B45FD8299E /* Pods-Minimalist-Weather.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Minimalist-Weather/Info.plist";
@@ -289,6 +406,7 @@
 				B3EAA4C71CFFA14500B06008 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
